@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { API_OPTIONS } from "../utils/constants";
 import { addTrailerVideo } from "../utils/moviesSlice";
 
+//Trailer Part
 const useMovieTrailer = (movieId) => {
   const dispatch = useDispatch();
 
