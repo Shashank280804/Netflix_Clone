@@ -1,5 +1,5 @@
 import { IMG_CDN_URL } from "../utils/constants";
-
+//Movie component
 const MovieCard = ({ posterPath }) => {
   if (!posterPath) return null;
   return (
