@@ -13,7 +13,7 @@ const Body = () => {
     },
     {
       path: "/browse", // Path for browsing
-      element: <Browse />, // Render the Browse component at the /browse path
+      element: <Browse />, 
     },
   ]);
 
